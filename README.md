@@ -1,11 +1,18 @@
-CS4248 Project
-Overview
-This GitHub repository is managed by Jordan Soh Jing Ren and Tan How Suen, focused on machine learning with code predominantly in Jupyter Notebook and Python. The project appears to involve experimentation with various machine learning models like Logistic Regression, MLP (Multi-Layer Perceptron), Prompt Engineering, and Transformers.
+# CS4248 Project Group 26
 
-Features
-Logistic Regression: Basic machine learning model for binary classification tasks.
-MLP: A type of neural network used for a range of prediction tasks.
-Prompt Engineering: Techniques for optimizing inputs to improve model performance.
-Transformer: Advanced model architecture predominantly used in NLP.
-Contributions
-Feel free to contribute to this project by submitting pull requests or discussing potential features or bugs in the issues tab.
+Members: Chen Hung-Yu, Darren Teo Zhi Jie, Soh Jing Ren,
+ Tan How Suen, Wayne Zhang Si Yuan, Yang Junyan
+
+## Overview
+This repository contains the necessary files to recreate our group project work for NUS CS4248 Natural Language Processing AY23/24 Sem 2.
+The project focuses on document classification in the domain of news articles, seeking to appropriately label reliability in a 4-way classification model of Reliable, Satire, Hoax, or Propaganda.
+
+
+## Features
+- **Logistic Regression**: code for Logistic Regression
+- **MLP (Multi-Layer Perceptron)**: code for MLP
+- **Prompt Engineering**: code for Prompt Engineering 
+- **Transformer**: code for Transformer
+
+## Dataset 
+The Labeled Unreliable News Dataset used can be found \href{https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset}{here}
