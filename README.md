@@ -6,14 +6,13 @@ Members: Chen Hung-Yu, Darren Teo Zhi Jie, Soh Jing Ren,
 ## Overview
 This repository contains the necessary files to recreate our group project work for NUS CS4248 Natural Language Processing AY23/24 Sem 2.
 The project focuses on document classification in the domain of news articles, seeking to appropriately label reliability in a 4-way classification model of Reliable, Satire, Hoax, or Propaganda.
-Models/Techniques, including Naive Bayes, Logistic Regression, MLP, Transformer, and Prompt Engineering, as well as a comprehensive set of preprocessing and feature engineering methods were explored. 
+Models/Techniques, including Naive Bayes, Logistic Regression, MLP, Transformer, and Prompt Engineering, as well as a comprehensive set of preprocessing and feature engineering methods, were explored. 
 
 ## Contents 
 - **Logistic Regression**: code for Logistic Regression
 - **MLP (Multi-Layer Perceptron)**: code for MLP, PBS scripts for NSCC cluster, and results
 - **Prompt Engineering**: code for Prompt Engineering and GPT prediction results
 - **Transformer**: code for Transformer and results
-- **Group26.pdf**: final report 
 
 ## Dataset 
 The Labeled Unreliable News Dataset curated by [Rashkin et al.,
