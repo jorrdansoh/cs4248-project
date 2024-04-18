@@ -13,6 +13,7 @@ Models/Techniques, including Naive Bayes, Logistic Regression, MLP, Transformer,
 - **MLP (Multi-Layer Perceptron)**: code for MLP, PBS scripts for NSCC cluster, and results
 - **Prompt Engineering**: code for Prompt Engineering and GPT prediction results
 - **Transformer**: code for Transformer and results
+- **Group26.pdf**: final report 
 
 ## Dataset 
 The Labeled Unreliable News Dataset curated by [Rashkin et al.,
