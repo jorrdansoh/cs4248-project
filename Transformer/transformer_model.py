@@ -39,7 +39,6 @@ class Transformer(nn.Module):
 		super(Transformer, self).__init__()
 
 		self.tok_emb = nn.Embedding(vocab_size, embeds_size)
-		self.pos_emb = nn.Embedding(block_size, embeds_size)
 		self.block = Block()
 		self.ln1 = nn.LayerNorm(embeds_size)
 		self.ln2 = nn.LayerNorm(embeds_size)
