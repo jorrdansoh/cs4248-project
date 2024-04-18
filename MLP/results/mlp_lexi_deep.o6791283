@@ -1,0 +1,74 @@
+[Pipeline] .......... (step 1 of 3) Processing features, total= 6.0min
+[Pipeline] ......... (step 2 of 3) Processing resampler, total=   0.1s
+Iteration 1, loss = 0.52738326
+Iteration 2, loss = 0.03671600
+Iteration 3, loss = 0.00811058
+Iteration 4, loss = 0.00319082
+Iteration 5, loss = 0.00190612
+Iteration 6, loss = 0.00142294
+Iteration 7, loss = 0.00118496
+Iteration 8, loss = 0.00100341
+Iteration 9, loss = 0.00086745
+Iteration 10, loss = 0.00073900
+Iteration 11, loss = 0.00066550
+Iteration 12, loss = 0.00061129
+Iteration 13, loss = 0.00056292
+Iteration 14, loss = 0.00051846
+Iteration 15, loss = 0.00047673
+Iteration 16, loss = 0.00043755
+Iteration 17, loss = 0.00040095
+Iteration 18, loss = 0.00036702
+Iteration 19, loss = 0.00033533
+Iteration 20, loss = 0.00030880
+Iteration 21, loss = 0.05366413
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+[Pipeline] ........ (step 3 of 3) Processing classifier, total=35.6min
+F1 Macro Score:  0.7407869736170891
+F1 Micro Score:  0.7473333333333333
+[[578 117  27  28]
+ [ 42 361 313  34]
+ [ 26  12 620  92]
+ [ 30   5  32 683]]
+              precision    recall  f1-score   support
+
+           1       0.86      0.77      0.81       750
+           2       0.73      0.48      0.58       750
+           3       0.62      0.83      0.71       750
+           4       0.82      0.91      0.86       750
+
+    accuracy                           0.75      3000
+   macro avg       0.76      0.75      0.74      3000
+weighted avg       0.76      0.75      0.74      3000
+
+0.6631111111111111
+0.6699261220064711
+[[[2152   98]
+  [ 172  578]]
+
+ [[2116  134]
+  [ 389  361]]
+
+ [[1878  372]
+  [ 130  620]]
+
+ [[2096  154]
+  [  67  683]]]
+[[5805984  944016]
+ [ 807382 1439618]]
+Time taken: 2526.431431055069
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-04-18 16:14:15.475649:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6791283.pbs101
+	Project: 11003862
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(128), Used(128)
+	CPU Time Used: 18:15:28
+	Memory: Requested(256gb), Used(8054996kb)
+	Vmem Used: 43071708kb
+	Walltime: Requested(04:00:00), Used(00:42:53)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1003c2s2b0n0:ncpus=128:mem=268435456kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

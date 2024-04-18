@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N test_run
+#PBS -q normal
+#PBS -j oe
+#PBS -l select=1:ncpus=64:mem=64gb
+#PBS -l walltime=2:00:00
+#PBS -P personal-e0878495
+
+
+
+working_dir=/home/users/nus/e0878495/cs4248
+
+
+source /home/project/11003862/hung-yu/activate_conda_env.sh
+
+
+cd $working_dir
+
+python mlp.py
