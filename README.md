@@ -6,7 +6,7 @@ Members: Chen Hung-Yu, Darren Teo Zhi Jie, Soh Jing Ren,
 ## Overview
 This repository contains the necessary files to recreate our group project work for NUS CS4248 Natural Language Processing AY23/24 Sem 2.
 The project focuses on document classification in the domain of news articles, seeking to appropriately label reliability in a 4-way classification model of Reliable, Satire, Hoax, or Propaganda.
-
+Models/Techniques, including Naive Bayes, Logistic Regression, MLP, Transformer, and Prompt Engineering, as well as a comprehensive set of preprocessing and feature engineering methods were explored. 
 
 ## Features
 - **Logistic Regression**: code for Logistic Regression
@@ -15,4 +15,5 @@ The project focuses on document classification in the domain of news articles, s
 - **Transformer**: code for Transformer
 
 ## Dataset 
-The Labeled Unreliable News Dataset used can be found \href{https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset}{here}
+The Labeled Unreliable News Dataset used can be found [here](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset). 
+
