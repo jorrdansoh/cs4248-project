@@ -15,5 +15,6 @@ Models/Techniques, including Naive Bayes, Logistic Regression, MLP, Transformer,
 - **Transformer**: code for Transformer
 
 ## Dataset 
-The Labeled Unreliable News Dataset used can be found [here](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset). 
+The Labeled Unreliable News Dataset curated by [Rashkin et al.,
+2017](https://aclanthology.org/D17-1317.pdf) and used for the study can be found [here](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset). 
 
